@@ -1,0 +1,16 @@
+name: sstg-nav-bench
+channels: [conda-forge, aihabitat, defaults]
+dependencies:
+  - python=3.9
+  - habitat-sim=0.3.3
+  - withbullet
+  - numpy<2
+  - networkx
+  - matplotlib
+  - pillow
+  - imageio
+  - imageio-ffmpeg
+  - pandas
+  - pyyaml
+  - requests
+  - pytest
