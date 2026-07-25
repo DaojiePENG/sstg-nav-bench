@@ -1,0 +1,12 @@
+dataset: data/datasets/objectnav_hm3d_v2/val_mini
+scenes: data/hm3d/minival
+semantic_annots: data/hm3d
+output: outputs/hm3d_minival_oracle
+split: val_mini
+success_distance: 1.0
+node_spacing: 1.0
+views_per_node: 4
+semantic_backend: oracle
+seed: 7
+fps: 8
+video_episodes: 6
